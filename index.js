@@ -41,15 +41,3 @@ function tailsNeverFails() {
     }
   }
 }
-// function tailsNeverFails() {
-//   let flip = 'tails';
-//   let wins = 0;
-//   while (flip === 'tails') {
-//     if (Math.random() >= 0.5) {
-//       wins++;
-//     } else {
-//       flip = 'heads'
-//       return `You got ${wins} tails in a row!`;
-//     }
-//   }
-// }
